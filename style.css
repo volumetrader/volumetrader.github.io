@@ -29,18 +29,18 @@
     font-weight: bold;
   }
 
-  .horizontal-list {
+  nav ul {
     display: flex;
     justify-content: center; /* Center the group of items */
     align-items: center; /* Vertically center items */
     width: 100%; /* Full width of container */
     list-style-type: none;
     padding: 0;
-}
+  } 
 
-.horizontal-list li {
-  margin: 0 10px; /* Adds horizontal margin around each item */
-}
+  nav ul li {
+    margin: 0 10px; /* Adds horizontal margin around each item */
+  }
   
   section {
     margin-bottom: 40px;
